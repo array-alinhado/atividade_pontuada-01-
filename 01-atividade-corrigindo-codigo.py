@@ -1,10 +1,9 @@
-# Variáveis para armazenar os números
-numero1 = int(input("Digite o 1º número: "))
-numero2 = int(input("Digite o 2º número: "))
-numero3 = int(input("Digite o 3º número: "))
-numero4 = int(input("Digite o 4º número: "))
-numero5 = int(input("Digite o 5º número: "))
+import os
+os.system("cls || clear")
 
+# Variáveis para armazenar os números
+for i in range(5): 
+    (f"digite seu {i+1} numero: ")
 # Variáveis para armazenar as estatísticas
 quantidade_pares = 0
 quantidade_impares = 0
